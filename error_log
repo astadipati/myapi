@@ -1,0 +1,19 @@
+[26-May-2018 04:03:38 Asia/Jakarta] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'patub743_sipweb'@'localhost' (using password: YES) in /home/patub743/api7.pa-tuban.go.id/include/DB_Connect.php on line 10
+[26-May-2018 04:03:38 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'patub743_sippweb'@'localhost' to database 'patub743_sippweb'' in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php:10
+Stack trace:
+#0 /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php(10): PDO->__construct('mysql:dbname=pa...', 'patub743_sippwe...', 'Kul0nuwun-')
+#1 /home/patub743/api7.pa-tuban.go.id/index.php(8): require_once('/home/patub743/...')
+#2 {main}
+  thrown in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php on line 10
+[26-May-2018 04:03:39 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'patub743_sippweb'@'localhost' to database 'patub743_sippweb'' in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php:10
+Stack trace:
+#0 /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php(10): PDO->__construct('mysql:dbname=pa...', 'patub743_sippwe...', 'Kul0nuwun-')
+#1 /home/patub743/api7.pa-tuban.go.id/index.php(8): require_once('/home/patub743/...')
+#2 {main}
+  thrown in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php on line 10
+[26-May-2018 04:07:23 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'patub743_sippweb'@'localhost' to database 'patub743_sippweb'' in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php:10
+Stack trace:
+#0 /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php(10): PDO->__construct('mysql:dbname=pa...', 'patub743_sippwe...', 'Kul0nuwun-')
+#1 /home/patub743/api7.pa-tuban.go.id/index.php(8): require_once('/home/patub743/...')
+#2 {main}
+  thrown in /home/patub743/api7.pa-tuban.go.id/libs/koneksi.php on line 10
